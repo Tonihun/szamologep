@@ -44,8 +44,9 @@ Array.from(muveletek).forEach(muvelet => {
                 break;
             case '÷':
                 if (b===0)
-                {c= '0-val nem osztunk'}
-                c = (a / b).toFixed(2);
+                {c= '0-val nem osztunk'} 
+                else{
+                c = (a / b).toFixed(2)};
                 break;
             case '×':
                 c = a * b;
